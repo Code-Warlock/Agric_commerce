@@ -1,0 +1,277 @@
+@charset "utf-8";
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* body{
+    flex-wrap: wrap;
+} */
+ b{
+     color: #269B51;
+ }
+ div.mid button{
+    background-color: #269B51;
+    color: #ffff;
+    font-size: 15px;
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    border-style: none;
+}
+ div.container{
+     background-image: url(../images/Frame\ 8.png);
+     height: 810px;
+}
+div.circle{
+    background-color: rgb(221, 206, 192);
+    border-radius: 50%;
+    width: 332px;
+    height: 320px;
+    position: absolute;
+    top: -125px;
+    left: -64px;
+
+    /* z-index: auto; */
+}
+div.navbar{
+    font-weight: 200;
+    font-style: bold;
+}
+div.navbar h1{
+    z-index: 3;
+}
+div.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    flex-direction: row;
+    align-items: center;
+}
+div.navcon{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 100px;
+}
+
+div.navcon #home{
+    margin-right: 10px;
+}
+div.navcon #pro{
+    margin-left: 10px;
+}
+
+    
+/* div.container div.navbar{
+     padding-top: 40px;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+     align-items: center;
+} */
+ div.container .btn{
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: white;
+}
+div.mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div.mid .girl{
+    height: 653px;
+    width: 462px;
+}
+div.mid h1{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 54px;
+}
+div.container1{
+    background-color: #ffff;
+    height: 798px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.container1 img{
+    width: 462px;
+    height: 653px;
+}
+#star{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    bottom: 155px;
+    left: 480px;
+}
+div.content p{
+    font-weight: bold;
+    font-size: 20px;
+}
+div.content button{
+    background-color: #269B51;
+    color: #ffff;
+    font-size: 15px;
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    border-style: none;
+}
+div.container2{
+    background-color: #F5FAF6;
+    height: 640px;
+    text-align: center;
+}
+div.container2 h1{
+    padding-top: 70px;
+}
+
+div.container2 h2{
+    font-size: larger;
+}
+div.mid1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px
+}
+#one{
+    background-color:white;
+    border-radius: 15px;
+    width: 243px;
+    height: 306px;
+    padding: 25px; 
+}
+#two{
+    background-color:white;
+     border-radius: 15px;
+     width: 243px;
+     height: 306px;
+     padding: 25px;
+}
+#three{
+    background-color:white;
+    border-radius: 15px;
+    width: 243px;
+    height: 306px;
+    padding: 25px;
+}
+#four{
+    background-color:white;
+    border-radius: 15px;
+    width: 243px;
+    height: 306px;
+    padding: 25px;
+}
+#p{
+    margin-top: 20px;
+    color: #269B51;
+    font-style: bold;
+    align-items: center;
+}
+b{
+    font-size: larger;
+    font-style: bold;
+}
+div.container3{
+    background-color: #ffff;
+    height: 640px;
+}
+div.container3 #mid2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#star1{
+    position: relative;
+    left: 700px;
+}
+#span > div{
+    display: inline-flex;
+    margin: 0 10px;
+}
+#span > div > p{
+    margin-left: 5px;
+}
+div.container3 #base{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #326543;
+    width: 550px;
+    height: 105px;
+    border-radius: 20px;
+}
+div.container3 button{
+    background-color: rgb(138, 231, 138);
+    width: 90px;
+    height: 64px;
+    color: #269B51;
+    border-radius: 20px;
+    font-size: 50px;
+    align-items: center;
+}
+div.container3 #farm{
+    width: 450px;
+    height: 550px;
+}
+div.arrow h1{
+    line-break: auto;
+} 
+div.footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    background-image: url(../images/image\ 8.png);
+}
+div.footer > div.contact{
+    position: absolute;
+    left: 100px;
+    line-height: 30px;
+    color: #F5FAF6;
+}
+div.contact > button{
+    width: 100px;
+    height: 42px;
+    border-radius: 20px;
+    position: relative;
+    right: 105px;
+    background-color: #269B51;
+    color: #F5FAF6;
+}
+div.icons{
+    position: absolute;
+    right: 350px;
+}
+div.icons > *{
+    border-radius: 50%;
+}
+
+div.icons #icon1{
+    background-color: black;
+}
+
+div.icons #icon2{
+    background-color: black;
+}
+
+div.icons #icon3{
+    background-color: black;
+}
+div.contact > #email{
+    padding: 20px;
+    height: 39px;
+    width: 344px;
+    border-radius: 20px;
+}
+div#base{
+    align-items: center;
+}
+div#base > p{
+    color: #F5FAF6;
+}
