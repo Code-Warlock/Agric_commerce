@@ -275,3 +275,10 @@ div#base{
 div#base > p{
     color: #F5FAF6;
 }
+
+p#home a{
+    color: #000;
+}
+p#product a{
+    color: #000;
+}
